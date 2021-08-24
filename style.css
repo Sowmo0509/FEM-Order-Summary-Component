@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 :root {
@@ -21,5 +24,21 @@ body {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(./order-summary-component-main/order-summary-component-main/images/pattern-background-desktop.svg);
+}
+
+.card {
+  position: relative;
+  width: 320px;
+  height: 480px;
+  background: white;
+  border-radius: 16px;
+}
+
+.card-header img {
+  border-radius: 16px 16px 0px 0px;
+  width: 320px;
 }
